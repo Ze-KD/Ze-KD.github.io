@@ -1,0 +1,123 @@
+/* #####################  Basics  ##################### */
+
+header {/* For the <header> */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(100, 149, 255,1);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+footer {
+    position: sticky;
+    bottom: 10px;
+    margin: 20px 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+    background-color: blueviolet;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: salmon;
+}
+
+main {
+    
+    padding: 10%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+/* #####################  Simple  ##################### */
+
+
+h1, h4 {
+    margin: 10px;    
+}
+
+#end {
+    background-color: beige;
+    border: solid;
+    height: 20px;
+}
+
+/* #####################  Class TXT  ##################### */
+
+#add div{
+    border: 0.5px solid;
+    padding: 10px;
+    margin : 10px;
+}
+
+.class-name {
+    background-color: white;
+    margin-bottom: 10px;
+}
+.class-h {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: red;
+}
+.class-txt {
+    margin-top: 10px;
+    background-color: blue;
+}
+
+
+
+/* #####################  Input  ##################### */
+
+input{
+    width: 30vh;
+    height: 3vh;
+    padding: 8px;
+    border-bottom: solid .3vh gray;
+}
+  
+input:hover{
+    border-bottom: solid .3vh black;
+    border-right: solid .3vh gray;
+}
+
+#input-name {
+    width: 15vh;
+    height: 1vh;
+}
+
+/* #####################  Button  ##################### */
+
+button {
+    background-color:#ffffff00;
+    
+	border-radius:28px;
+	border: 2px solid #ffffff;
+	display:inline-block;
+    cursor:pointer;
+    
+	color:#ffffff;
+	font-family:Arial;
+    font-size:15px;
+    
+    padding:10px 20px;
+    margin: 10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #00000080;
+}
+button:hover {
+	text-shadow:0px 1px 0px #000000
+}
+button:active {
+	position:relative;
+    top:2px;
+    left: 1px;
+}
+
+/* #####################    ##################### */
+
+    
